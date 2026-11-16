@@ -145,6 +145,8 @@ a.ikoon:hover {
   overflow: hidden;
 }
 
+/* Vahetuvad pildid ainult CSS-iga: 5 pilti, igaüks on nähtaval 4 sekundit,
+   kogu ring kestab 20 sekundit. Iga pilt alustab 4 sekundit hiljem kui eelmine. */
 .galerii img {
   position: absolute;
   inset: 0;
@@ -152,33 +154,22 @@ a.ikoon:hover {
   height: 100%;
   object-fit: cover;
   opacity: 0;
-  transition: opacity 1.2s ease;
+  animation: vahetus 20s infinite;
 }
 
-.galerii img.nahtav { opacity: 1; }
+.galerii img:nth-child(1) { animation-delay: -1s; }
+.galerii img:nth-child(2) { animation-delay: 3s; }
+.galerii img:nth-child(3) { animation-delay: 7s; }
+.galerii img:nth-child(4) { animation-delay: 11s; }
+.galerii img:nth-child(5) { animation-delay: 15s; }
 
-.galerii-punktid {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 22px;
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-  z-index: 2;
+@keyframes vahetus {
+  0%   { opacity: 0; }
+  5%   { opacity: 1; }
+  20%  { opacity: 1; }
+  25%  { opacity: 0; }
+  100% { opacity: 0; }
 }
-
-.galerii-punktid button {
-  width: 10px;
-  height: 10px;
-  padding: 0;
-  border: 1px solid #fff;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.35);
-  cursor: pointer;
-}
-
-.galerii-punktid button.aktiivne { background: #fff; }
 
 /* kaart + aadress */
 

@@ -25,7 +25,6 @@ Kui mitu inimest töötab samas projektis, muudavad nad vahel sama faili sama ri
 - `index.html`: avaleht kliendi visandi järgi. Vasakul logo, menüü ja vahetuvate piltidega galerii, paremal sotsiaalmeedia nupud (klikitav on ainult Tumblr), Google Maps kaart, aadress ning lahtiolekuajad.
 - `hinnakiri.html`: hinnakirja mall näidisandmetega.
 - `broneeri.html`: broneerimise leht, mis jääb kliendi soovil praegu tegemata.
-- `css/style.css`: kõik stiilid. Taust on hele krobeline tapeedimuster, fondid Dancing Script ja Dosis (Google Fonts).
-- `js/galerii.js`: galerii pildid vahetuvad iga 4 sekundi järel.
+- `css/style.css`: kõik stiilid. Taust on hele krobeline tapeedimuster, fondid Dancing Script ja Dosis (Google Fonts). Galerii pildid vahetuvad iga 4 sekundi järel CSS-animatsiooniga (`@keyframes`), JavaScripti lehel ei ole.
 
 Fotod on Wikimedia Commonsist, autorid on märgitud avalehe jaluses.
