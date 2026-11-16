@@ -1,4 +1,4 @@
 # Konflikti fail
 
-See rida on see, mida mõlemad tudengid muudavad.
+Tudeng 2 kirjutas siia: Marie ilutuba avab uksed teisipäeval.
 Teine rida jääb samaks.
