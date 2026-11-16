@@ -14,7 +14,8 @@ Täitsin mõlema tudengi rolli kahes eraldi kloonis.
 
 Kuvatõmmis konfliktist:
 
-![Merge konflikt](pildid/merge-konflikt.png)
+<img width="1096" height="447" alt="image" src="https://github.com/user-attachments/assets/e23c8a99-c7ee-4225-adf3-d563df3e48fb" />
+
 
 ### Miks on oluline osata selliseid konflikte lahendada?
 
