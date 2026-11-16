@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marie ilutuba</title>
+  <meta name="description" content="Marie ilutuba Tartus: maniküür, pediküür, juuksur ja näohooldus.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Dosis:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <main class="leht avaleht">
+
+    <!-- vasak ülemine nurk: logo ja menüü -->
+    <header class="pais">
+      <a class="logo" href="index.html">Marie ilutuba</a>
+      <nav class="menuu">
+        <a href="hinnakiri.html">Hinnakiri</a>
+        <a href="broneeri.html">Broneeri aeg</a>
+      </nav>
+    </header>
+
+    <!-- parem ülemine nurk: sotsiaalmeedia (klikitav on praegu ainult Tumblr) -->
+    <div class="sotsiaal">
+      <span class="ikoon mitteaktiivne" title="Instagram (tulekul)" aria-label="Instagram (tulekul)">
+        <i class="fa-brands fa-instagram"></i>
+      </span>
+      <span class="ikoon mitteaktiivne" title="Facebook (tulekul)" aria-label="Facebook (tulekul)">
+        <i class="fa-brands fa-facebook-f"></i>
+      </span>
+      <a class="ikoon" href="https://www.tumblr.com/unsplash" target="_blank" rel="noopener" title="Tumblr" aria-label="Tumblr">
+        <i class="fa-brands fa-tumblr"></i>
+      </a>
+    </div>
+
+    <!-- vasak veerg: vahetuvate piltidega galerii -->
+    <section class="galerii" aria-label="Galerii">
+      <div class="galerii-raam">
+        <img class="nahtav" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Handt%C3%BCcher_im_Spa_%2853404561087%29.jpg/960px-Handt%C3%BCcher_im_Spa_%2853404561087%29.jpg" alt="Rätikud ja orhideed hooldusruumis">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Acrylic_nail_art_with_crystal.jpg/960px-Acrylic_nail_art_with_crystal.jpg" alt="Lillad küüned kristallkaunistusega">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Makeup_Brushes_%2851825380981%29.jpg/960px-Makeup_Brushes_%2851825380981%29.jpg" alt="Meigipintslid">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/French_Manicure_with_Glitter_nail_art_on_ring_finger.jpg/960px-French_Manicure_with_Glitter_nail_art_on_ring_finger.jpg" alt="Prantsuse maniküür sädelusega">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Hairdresser_at_work.jpg/960px-Hairdresser_at_work.jpg" alt="Juuksur töö juures">
+      </div>
+      <div class="galerii-punktid"></div>
+    </section>
+
+    <!-- parem veerg: kaart, aadress ja lahtiolekuajad -->
+    <section class="info">
+      <div class="kaart">
+        <iframe
+          src="https://www.google.com/maps?q=R%C3%BC%C3%BCtli+11,+51007+Tartu&z=16&output=embed"
+          title="Marie ilutuba kaardil"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen></iframe>
+      </div>
+      <div class="aadress">
+        <p>Rüütli 11, 51007 Tartu</p>
+        <div class="lahtiolek">
+          <p><span>E–R</span> 10.00–19.00</p>
+          <p><span>L</span> 10.00–16.00</p>
+          <p><span>P</span> suletud</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="jalus">
+    Fotod Wikimedia Commonsist:
+    <a href="https://commons.wikimedia.org/wiki/File:Handt%C3%BCcher_im_Spa_(53404561087).jpg">Tim Reckmann</a> (CC BY 2.0),
+    <a href="https://commons.wikimedia.org/wiki/File:Acrylic_nail_art_with_crystal.jpg">Ajls1111</a> (CC BY-SA 4.0),
+    <a href="https://commons.wikimedia.org/wiki/File:Makeup_Brushes_(51825380981).jpg">ajay_suresh</a> (CC BY 2.0),
+    <a href="https://commons.wikimedia.org/wiki/File:French_Manicure_with_Glitter_nail_art_on_ring_finger.jpg">Theknowhau</a> (CC BY-SA 4.0),
+    <a href="https://commons.wikimedia.org/wiki/File:Hairdresser_at_work.jpg">Rwebogora</a> (CC BY-SA 4.0).
+  </footer>
+
+  <script src="js/galerii.js"></script>
+</body>
+</html>
