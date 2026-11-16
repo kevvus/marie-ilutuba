@@ -1,4 +1,4 @@
 # Konflikti fail
 
-Tudeng 1 kirjutas siia: Marie ilutuba avab uksed esmaspäeval.
+Mõlemad tudengid kirjutasid siia: Marie ilutuba avab uksed esmaspäeval ja teisipäeval.
 Teine rida jääb samaks.
